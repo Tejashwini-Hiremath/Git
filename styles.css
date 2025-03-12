@@ -56,7 +56,9 @@ section h2 {
     font-size: 2rem;
     color: #333;
 }
-
+h2{
+    text-align: center;
+}
 #about p {
     text-align: center;
     font-size: 1.2rem;
@@ -83,6 +85,7 @@ section h2 {
 
 .project-item:hover{
     transform: translateY(-10px);
+    height:100vh;
 }
 .project-item {
     max-width: 1000px;
